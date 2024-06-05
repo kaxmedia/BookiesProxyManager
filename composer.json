@@ -1,5 +1,5 @@
 {
-    "name":              "ocramius/proxy-manager",
+    "name":              "kaxmedia/bookies-proxy-manager",
     "description":       "A library providing utilities to generate, instantiate and generally operate with Object Proxies",
     "type":              "library",
     "license":           "MIT",
