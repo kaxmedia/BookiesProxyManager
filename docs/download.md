@@ -3,5 +3,5 @@
 The suggested installation method is via [Composer](https://getcomposer.org/):
 
 ```sh
-composer require ocramius/proxy-manager
+composer require kaxmedia/bookies-proxy-manager
 ```
