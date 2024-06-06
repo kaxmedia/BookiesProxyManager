@@ -3,7 +3,7 @@
     "description":       "A library providing utilities to generate, instantiate and generally operate with Object Proxies",
     "type":              "library",
     "license":           "MIT",
-    "homepage":          "https://github.com/Ocramius/ProxyManager",
+    "homepage":          "https://github.com/KaxMedia/BookiesProxyManager",
     "keywords":          [
         "proxy",
         "proxy pattern",
@@ -44,14 +44,14 @@
     },
     "autoload": {
         "psr-4": {
-            "ProxyManager\\": "src/ProxyManager"
+            "BookiesProxyManager\\": "src/BookiesProxyManager"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "ProxyManagerBench\\": "tests/ProxyManagerBench",
-            "ProxyManagerTest\\": "tests/ProxyManagerTest",
-            "BookiesProxyManagerTestAsset\\": "tests/ProxyManagerTestAsset",
+            "ProxyManagerBench\\": "tests/BookiesProxyManagerBench",
+            "ProxyManagerTest\\": "tests/BookiesProxyManagerBench",
+            "BookiesProxyManagerTestAsset\\": "tests/BookiesProxyManagerBench",
             "Laminas\\Server\\": "tests/Stubbed/Laminas/Server"
         }
     },
