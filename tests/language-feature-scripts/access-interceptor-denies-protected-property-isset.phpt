@@ -10,7 +10,7 @@ class Kitchen
     protected $sweets = 'candy';
 }
 
-$factory = new \ProxyManager\Factory\AccessInterceptorValueHolderFactory($configuration);
+$factory = new \BookiesProxyManager\Factory\AccessInterceptorValueHolderFactory($configuration);
 
 $proxy = $factory->createProxy(new Kitchen());
 

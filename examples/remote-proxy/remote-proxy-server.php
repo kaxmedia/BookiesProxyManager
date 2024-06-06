@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace ProxyManager\Example\RemoteProxyServer;
+namespace BookiesProxyManager\Example\RemoteProxyServer;
 
 use Laminas\XmlRpc\Server;
 

@@ -45,7 +45,7 @@ php composer.phar require ocramius/proxy-manager
 Here's how you build a lazy loadable object with ProxyManager using a *Virtual Proxy*
 
 ```php
-$factory = new \ProxyManager\Factory\LazyLoadingValueHolderFactory();
+$factory = new \BookiesProxyManager\Factory\LazyLoadingValueHolderFactory();
 
 $proxy = $factory->createProxy(
     \MyApp\HeavyComplexObject::class,

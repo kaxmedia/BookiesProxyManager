@@ -2,7 +2,7 @@
 
 namespace StaticAnalysis\AccessInterceptorValueHolder;
 
-use ProxyManager\Factory\AccessInterceptorValueHolderFactory;
+use BookiesProxyManager\Factory\AccessInterceptorValueHolderFactory;
 
 require_once __DIR__ . '/../../vendor/autoload.php';
 

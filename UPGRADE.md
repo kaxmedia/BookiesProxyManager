@@ -75,8 +75,8 @@ This is a list of backwards compatibility (BC) breaks introduced in ProxyManager
  * Moved code generation logic to [`Zend\Code`](https://github.com/zendframework/zf2)
  * Added method [`ProxyManager\Inflector\ClassNameInflectorInterface#isProxyClassName($className)`](https://github.com/Ocramius/ProxyManager/blob/master/src/ProxyManager/Inflector/ClassNameInflectorInterface.php)
  * The constructor of [`ProxyManager\Autoloader\Autoloader`](https://github.com/Ocramius/ProxyManager/blob/master/src/ProxyManager/Autoloader/Autoloader.php)
-   changed from `__construct(\ProxyManager\FileLocator\FileLocatorInterface $fileLocator)` to
-   `__construct(\ProxyManager\FileLocator\FileLocatorInterface $fileLocator, \ProxyManager\Inflector\ClassNameInflectorInterface $classNameInflector)`
+   changed from `__construct(\BookiesProxyManager\FileLocator\FileLocatorInterface $fileLocator)` to
+   `__construct(\BookiesProxyManager\FileLocator\FileLocatorInterface $fileLocator, \BookiesProxyManager\Inflector\ClassNameInflectorInterface $classNameInflector)`
  * Classes implementing `CG\Core\GeneratorStrategyInterface` now implement
    [`ProxyManager\GeneratorStrategy\GeneratorStrategyInterface`](https://github.com/Ocramius/ProxyManager/blob/master/src/ProxyManager/GeneratorStrategy/GeneratorStrategyInterface.php)
    instead

@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace ProxyManager\Example\VirtualProxy;
+namespace BookiesProxyManager\Example\VirtualProxy;
 
 use Closure;
-use ProxyManager\Factory\LazyLoadingValueHolderFactory;
+use BookiesProxyManager\Factory\LazyLoadingValueHolderFactory;
 
 require_once __DIR__ . '/../vendor/autoload.php';
 

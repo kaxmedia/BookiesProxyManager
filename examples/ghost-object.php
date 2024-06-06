@@ -2,11 +2,11 @@
 
 declare(strict_types=1);
 
-namespace ProxyManager\Example\GhostObject;
+namespace BookiesProxyManager\Example\GhostObject;
 
 use Closure;
-use ProxyManager\Factory\LazyLoadingGhostFactory;
-use ProxyManager\Proxy\GhostObjectInterface;
+use BookiesProxyManager\Factory\LazyLoadingGhostFactory;
+use BookiesProxyManager\Proxy\GhostObjectInterface;
 
 require_once __DIR__ . '/../vendor/autoload.php';
 

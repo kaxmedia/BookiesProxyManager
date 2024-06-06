@@ -71,7 +71,7 @@ Here's an example of how you can create and use an access interceptor scope loca
 ```php
 <?php
 
-use ProxyManager\Factory\AccessInterceptorScopeLocalizerFactory as Factory;
+use BookiesProxyManager\Factory\AccessInterceptorScopeLocalizerFactory as Factory;
 
 require_once __DIR__ . '/vendor/autoload.php';
 

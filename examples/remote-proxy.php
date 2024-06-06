@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace ProxyManager\Example\RemoteProxy;
+namespace BookiesProxyManager\Example\RemoteProxy;
 
-use ProxyManager\Factory\RemoteObject\Adapter\XmlRpc;
-use ProxyManager\Factory\RemoteObjectFactory;
+use BookiesProxyManager\Factory\RemoteObject\Adapter\XmlRpc;
+use BookiesProxyManager\Factory\RemoteObjectFactory;
 use Laminas\Http\Client\Adapter\Exception\RuntimeException;
 use Laminas\XmlRpc\Client;
 

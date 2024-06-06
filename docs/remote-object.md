@@ -61,8 +61,8 @@ interface FooServiceInterface
     public function foo();
 }
 
-$factory = new \ProxyManager\Factory\RemoteObjectFactory(
-    new \ProxyManager\Factory\RemoteObject\Adapter\XmlRpc(
+$factory = new \BookiesProxyManager\Factory\RemoteObjectFactory(
+    new \BookiesProxyManager\Factory\RemoteObject\Adapter\XmlRpc(
         new \Laminas\XmlRpc\Client('https://localhost/xmlrpc.php')
     )
 );

@@ -2,11 +2,11 @@
 
 namespace StaticAnalysis\RemoteObject;
 
-use ProxyManager\Factory\LazyLoadingValueHolderFactory;
-use ProxyManager\Factory\NullObjectFactory;
-use ProxyManager\Factory\RemoteObject\AdapterInterface;
-use ProxyManager\Factory\RemoteObjectFactory;
-use ProxyManager\Proxy\LazyLoadingInterface;
+use BookiesProxyManager\Factory\LazyLoadingValueHolderFactory;
+use BookiesProxyManager\Factory\NullObjectFactory;
+use BookiesProxyManager\Factory\RemoteObject\AdapterInterface;
+use BookiesProxyManager\Factory\RemoteObjectFactory;
+use BookiesProxyManager\Proxy\LazyLoadingInterface;
 
 require_once __DIR__ . '/../../vendor/autoload.php';
 

@@ -73,8 +73,8 @@ Then use the proxy manager to create a lazy version of the object (as a proxy):
 ```php
 namespace MyApp;
 
-use ProxyManager\Factory\LazyLoadingValueHolderFactory;
-use ProxyManager\Proxy\LazyLoadingInterface;
+use BookiesProxyManager\Factory\LazyLoadingValueHolderFactory;
+use BookiesProxyManager\Proxy\LazyLoadingInterface;
 
 require_once __DIR__ . '/vendor/autoload.php';
 

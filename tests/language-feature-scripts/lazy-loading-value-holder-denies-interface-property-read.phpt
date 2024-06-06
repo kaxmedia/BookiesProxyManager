@@ -9,7 +9,7 @@ interface MyInterface
 {
 }
 
-$factory = new \ProxyManager\Factory\LazyLoadingValueHolderFactory($configuration);
+$factory = new \BookiesProxyManager\Factory\LazyLoadingValueHolderFactory($configuration);
 
 $proxy = $factory
     ->createProxy(MyInterface::class, function (& $wrapped, $proxy, $method, array $parameters, & $initializer) : bool {

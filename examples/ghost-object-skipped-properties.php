@@ -2,11 +2,11 @@
 
 declare(strict_types=1);
 
-namespace ProxyManager\Example\GhostObjectSkippedProperties;
+namespace BookiesProxyManager\Example\GhostObjectSkippedProperties;
 
 use Closure;
-use ProxyManager\Factory\LazyLoadingGhostFactory;
-use ProxyManager\Proxy\GhostObjectInterface;
+use BookiesProxyManager\Factory\LazyLoadingGhostFactory;
+use BookiesProxyManager\Proxy\GhostObjectInterface;
 use ReflectionProperty;
 
 require_once __DIR__ . '/../vendor/autoload.php';

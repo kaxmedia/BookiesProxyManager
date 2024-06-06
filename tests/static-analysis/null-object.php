@@ -2,9 +2,9 @@
 
 namespace StaticAnalysis\NullObject;
 
-use ProxyManager\Factory\LazyLoadingValueHolderFactory;
-use ProxyManager\Factory\NullObjectFactory;
-use ProxyManager\Proxy\LazyLoadingInterface;
+use BookiesProxyManager\Factory\LazyLoadingValueHolderFactory;
+use BookiesProxyManager\Factory\NullObjectFactory;
+use BookiesProxyManager\Proxy\LazyLoadingInterface;
 
 require_once __DIR__ . '/../../vendor/autoload.php';
 

@@ -13,11 +13,11 @@ implemented:
 
 ```php
     
-$config = new \ProxyManager\Configuration();
+$config = new \BookiesProxyManager\Configuration();
 
 // generate the proxies and store them as files
-$fileLocator = new \ProxyManager\FileLocator\FileLocator(__DIR__.'/my/generated/classes/cache/dir');
-$config->setGeneratorStrategy(new \ProxyManager\GeneratorStrategy\FileWriterGeneratorStrategy($fileLocator));
+$fileLocator = new \BookiesProxyManager\FileLocator\FileLocator(__DIR__.'/my/generated/classes/cache/dir');
+$config->setGeneratorStrategy(new \BookiesProxyManager\GeneratorStrategy\FileWriterGeneratorStrategy($fileLocator));
 
 // set the directory to read the generated proxies from
 $config->setProxiesTargetDir(__DIR__ . '/my/generated/classes/cache/dir');

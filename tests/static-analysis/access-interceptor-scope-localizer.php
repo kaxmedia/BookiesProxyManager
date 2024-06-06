@@ -2,7 +2,7 @@
 
 namespace StaticAnalysis\AccessInterceptorScopeLocalizer;
 
-use ProxyManager\Factory\AccessInterceptorScopeLocalizerFactory;
+use BookiesProxyManager\Factory\AccessInterceptorScopeLocalizerFactory;
 
 require_once __DIR__ . '/../../vendor/autoload.php';
 

@@ -84,8 +84,8 @@ Then, use the proxy manager to create a ghost object of it. You will be responsi
 ```php
 namespace MyApp;
 
-use ProxyManager\Factory\LazyLoadingGhostFactory;
-use ProxyManager\Proxy\GhostObjectInterface;
+use BookiesProxyManager\Factory\LazyLoadingGhostFactory;
+use BookiesProxyManager\Proxy\GhostObjectInterface;
 
 require_once __DIR__ . '/vendor/autoload.php';
 
@@ -147,7 +147,7 @@ The initializer closure signature for ghost objects is:
  * @return bool true on success
  */
 $initializer = function (
-    \ProxyManager\Proxy\GhostObjectInterface $ghostObject,
+    \BookiesProxyManager\Proxy\GhostObjectInterface $ghostObject,
     string $method,
     array $parameters,
     & $initializer,
@@ -159,7 +159,7 @@ The initializer closure should usually look like:
 
 ```php
 $initializer = function (
-    \ProxyManager\Proxy\GhostObjectInterface $ghostObject,
+    \BookiesProxyManager\Proxy\GhostObjectInterface $ghostObject,
     string $method,
     array $parameters,
     & $initializer,
@@ -207,8 +207,8 @@ Its appropriate initialization code would be:
 ```php
 namespace MyApp;
 
-use ProxyManager\Factory\LazyLoadingGhostFactory;
-use ProxyManager\Proxy\GhostObjectInterface;
+use BookiesProxyManager\Factory\LazyLoadingGhostFactory;
+use BookiesProxyManager\Proxy\GhostObjectInterface;
 
 require_once __DIR__ . '/vendor/autoload.php';
 
@@ -349,8 +349,8 @@ a longer example, with a more real-world scenario:
 ```php
 namespace MyApp;
 
-use ProxyManager\Factory\LazyLoadingGhostFactory;
-use ProxyManager\Proxy\GhostObjectInterface;
+use BookiesProxyManager\Factory\LazyLoadingGhostFactory;
+use BookiesProxyManager\Proxy\GhostObjectInterface;
 
 require_once __DIR__ . '/vendor/autoload.php';
 

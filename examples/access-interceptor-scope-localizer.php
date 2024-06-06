@@ -7,10 +7,10 @@
 
 declare(strict_types=1);
 
-namespace ProxyManager\Example\AccessInterceptorScopeLocalizer;
+namespace BookiesProxyManager\Example\AccessInterceptorScopeLocalizer;
 
-use ProxyManager\Factory\AccessInterceptorScopeLocalizerFactory;
-use ProxyManager\Proxy\AccessInterceptorInterface;
+use BookiesProxyManager\Factory\AccessInterceptorScopeLocalizerFactory;
+use BookiesProxyManager\Proxy\AccessInterceptorInterface;
 
 require_once __DIR__ . '/../vendor/autoload.php';
 

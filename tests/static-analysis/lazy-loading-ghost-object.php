@@ -2,8 +2,8 @@
 
 namespace StaticAnalysis\LazyLoadingGhostObject;
 
-use ProxyManager\Factory\LazyLoadingGhostFactory;
-use ProxyManager\Proxy\GhostObjectInterface;
+use BookiesProxyManager\Factory\LazyLoadingGhostFactory;
+use BookiesProxyManager\Proxy\GhostObjectInterface;
 
 require_once __DIR__ . '/../../vendor/autoload.php';
 

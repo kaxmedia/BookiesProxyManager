@@ -35,7 +35,7 @@ class Baz extends Bar
     }
 }
 
-echo (new \ProxyManager\Factory\LazyLoadingGhostFactory($configuration))
+echo (new \BookiesProxyManager\Factory\LazyLoadingGhostFactory($configuration))
     ->createProxy(Baz::class, function () {})
     ->multiply(2);
 

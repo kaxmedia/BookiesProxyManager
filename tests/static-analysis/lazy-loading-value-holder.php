@@ -2,8 +2,8 @@
 
 namespace StaticAnalysis\LazyLoadingValueHolder;
 
-use ProxyManager\Factory\LazyLoadingValueHolderFactory;
-use ProxyManager\Proxy\LazyLoadingInterface;
+use BookiesProxyManager\Factory\LazyLoadingValueHolderFactory;
+use BookiesProxyManager\Proxy\LazyLoadingInterface;
 
 require_once __DIR__ . '/../../vendor/autoload.php';
 
